@@ -1,0 +1,9 @@
+module duck_game
+linktarget appduck_gameplugin
+optional plugin appduck_gameplugin
+classname duck_gamePlugin
+typeinfo appduck_game.qmltypes
+prefer :/qt/qml/duck_game/
+Main 1.0 Main.qml
+Instruction 1.0 Instruction.qml
+

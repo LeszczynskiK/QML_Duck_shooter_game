@@ -3,13 +3,25 @@ cmake_minimum_required(VERSION 3.16)
 project(duck_game VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_STANDARD 14)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
-qt_add_executable(appduck_game
+#Sources
+set(SOURCES
     main.cpp
+    game.cpp
+)
+
+# Heading files
+set(HEADERS
+    game.h
+)
+
+qt_add_executable(appduck_game
+     ${SOURCES} ${HEADERS}
 )
 
 qt_add_qml_module(appduck_game
@@ -17,10 +29,8 @@ qt_add_qml_module(appduck_game
     VERSION 1.0
     QML_FILES
         Main.qml
-        QML_FILES
-        QML_FILES Instruction.qml
-        QML_FILES game.qml
-        SOURCES game.h game.cpp
+        Instruction.qml
+        game.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
