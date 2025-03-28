@@ -1,0 +1,1 @@
+/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/appduck_game_autogen/include/../EWIEGA46WW/moc_instruction.cpp.json

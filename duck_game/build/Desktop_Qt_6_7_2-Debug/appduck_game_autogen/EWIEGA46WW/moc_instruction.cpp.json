@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "Instruction",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "gameInstructions",
+                    "notify": "instructionsChanged",
+                    "read": "getInstructions",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "Instruction",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "instructionsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "instruction.h",
+    "outputRevision": 68
+}

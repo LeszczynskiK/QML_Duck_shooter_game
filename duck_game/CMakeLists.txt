@@ -13,11 +13,13 @@ qt_standard_project_setup(REQUIRES 6.5)
 set(SOURCES
     main.cpp
     game.cpp
+    instruction.cpp
 )
 
 # Heading files
 set(HEADERS
     game.h
+    instruction.h
 )
 
 qt_add_executable(appduck_game

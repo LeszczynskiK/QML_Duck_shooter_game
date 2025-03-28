@@ -10,6 +10,7 @@ Gameplay:
 - The player's score increases based on the type of duck they hit    
 - The player is being represented by the hunter block on down of the screen  
 - He can move by a or d and arrows(to move on the right or left)  
+- Shoot ducks by clicking space button
 - The game continues until a duck reaches the bottom of the screen, ending the session   
   
 Features:  
