@@ -1,0 +1,7 @@
+--resource
+/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_duck_game.qrc
+--resource
+/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/appduck_game_raw_qml_0.qrc
+/qt/qml/duck_game/Main.qml
+/qt/qml/duck_game/Instruction.qml
+/qt/qml/duck_game/game.qml

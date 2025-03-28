@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/duck_game">
+    <file alias="qmldir">/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/duck_game/qmldir</file>
+  </qresource>
+</RCC>
+

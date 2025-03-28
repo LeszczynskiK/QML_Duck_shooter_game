@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appduck_game_FILE /home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/appduck_game)
+set(__QT_DEPLOY_TARGET_appduck_game_TYPE EXECUTABLE)

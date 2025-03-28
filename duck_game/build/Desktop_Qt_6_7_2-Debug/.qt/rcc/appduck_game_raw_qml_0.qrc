@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/duck_game/">
+    <file alias="Main.qml">/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/Main.qml</file>
+    <file alias="Instruction.qml">/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/Instruction.qml</file>
+    <file alias="game.qml">/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/game.qml</file>
+  </qresource>
+</RCC>
+
