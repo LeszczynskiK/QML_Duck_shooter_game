@@ -4,6 +4,7 @@
 
 #include "game.h"
 #include "instruction.h"
+#include "hunter.h"
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +15,10 @@ int main(int argc, char *argv[])
      // Register Instruction with QML
     Instruction instruction;
     engine.rootContext()->setContextProperty("instructionObject", &instruction);
+
+    // Register Hunter with QML
+    Hunter hunter;
+    engine.rootContext()->setContextProperty("hunterObject", &hunter);
 
     QObject::connect(
         &engine,

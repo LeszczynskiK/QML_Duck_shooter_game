@@ -14,12 +14,14 @@ set(SOURCES
     main.cpp
     game.cpp
     instruction.cpp
+    hunter.cpp
 )
 
 # Heading files
 set(HEADERS
     game.h
     instruction.h
+    hunter.h
 )
 
 qt_add_executable(appduck_game

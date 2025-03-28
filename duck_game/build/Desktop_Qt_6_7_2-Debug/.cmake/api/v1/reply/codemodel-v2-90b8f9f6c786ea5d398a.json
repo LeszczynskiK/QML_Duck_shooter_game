@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-8878ce5b50ca28ad8046.json",
+					"jsonFile" : "directory-.-Debug-4673dff19e7664ae4ce4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -64,35 +64,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint-Debug-cb718555259d6c0d28d8.json",
+					"jsonFile" : "target-all_qmllint-Debug-b619551e2dac9f6f0af3.json",
 					"name" : "all_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_json-Debug-5e2dabf30cef1d79ef19.json",
+					"jsonFile" : "target-all_qmllint_json-Debug-d6b798c57680c728c197.json",
 					"name" : "all_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_module-Debug-221d96f0009544b40c79.json",
+					"jsonFile" : "target-all_qmllint_module-Debug-7e3939814e3c8394f40a.json",
 					"name" : "all_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmltyperegistrations-Debug-ce65f0c598ff6ea88b42.json",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-2b8114af5a9ddfd54e8d.json",
 					"name" : "all_qmltyperegistrations",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appduck_game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appduck_game-Debug-f7afc33969c287df4715.json",
+					"jsonFile" : "target-appduck_game-Debug-d288335f371e51fb23d4.json",
 					"name" : "appduck_game",
 					"projectIndex" : 0
 				},
@@ -120,35 +120,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appduck_game_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appduck_game_qmllint-Debug-7c1ffec599451d640cfc.json",
+					"jsonFile" : "target-appduck_game_qmllint-Debug-01f28b6e8f7c3cd968f3.json",
 					"name" : "appduck_game_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appduck_game_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appduck_game_qmllint_json-Debug-16276548834414c5c776.json",
+					"jsonFile" : "target-appduck_game_qmllint_json-Debug-3b0d12c27c312f731c51.json",
 					"name" : "appduck_game_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appduck_game_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appduck_game_qmllint_module-Debug-bb9d93ef94bcb4795220.json",
+					"jsonFile" : "target-appduck_game_qmllint_module-Debug-83926ca2112a129378fb.json",
 					"name" : "appduck_game_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appduck_game_qmltyperegistration::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appduck_game_qmltyperegistration-Debug-1f6092e92f281b97f52f.json",
+					"jsonFile" : "target-appduck_game_qmltyperegistration-Debug-00bf68c48bcbc350b9a5.json",
 					"name" : "appduck_game_qmltyperegistration",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appduck_game_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appduck_game_tooling-Debug-65d1cd437d4fb856499e.json",
+					"jsonFile" : "target-appduck_game_tooling-Debug-26f6bf197749051065ef.json",
 					"name" : "appduck_game_tooling",
 					"projectIndex" : 0
 				}

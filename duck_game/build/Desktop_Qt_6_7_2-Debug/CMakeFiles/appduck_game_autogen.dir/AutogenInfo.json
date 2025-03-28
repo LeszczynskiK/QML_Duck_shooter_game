@@ -802,6 +802,12 @@
 			null
 		],
 		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/hunter.h",
+			"MU",
+			"EWIEGA46WW/moc_hunter.cpp",
+			null
+		],
+		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/instruction.h",
 			"MU",
 			"EWIEGA46WW/moc_instruction.cpp",
@@ -902,6 +908,11 @@
 	[
 		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/game.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/hunter.cpp",
 			"MU",
 			null
 		],

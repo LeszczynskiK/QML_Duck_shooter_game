@@ -7,9 +7,12 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/appduck_game_autogen/moc_predefs.h \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/game.cpp \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/game.h \
+	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/hunter.cpp \
+	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/hunter.h \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/instruction.cpp \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/instruction.h \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/main.cpp \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QDebug \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QObject \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
@@ -38,8 +41,10 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qcontainerfwd.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qcontainerinfo.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qcontiguouscache.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qdarwinhelpers.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qdatastream.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qdebug.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qexceptionhandling.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qflags.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qfloat16.h \
@@ -49,6 +54,7 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qgenericatomic.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qglobal.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qglobalstatic.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qhash.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qhashfunctions.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qiodevicebase.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qiterable.h \
@@ -57,6 +63,7 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qlist.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qlogging.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qmalloc.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qmap.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qmath.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qmetacontainer.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qmetatype.h \
@@ -73,6 +80,11 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qrefcount.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qscopedpointer.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qscopeguard.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qset.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qshareddata.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qshareddata_impl.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qstring.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qstringalgorithms.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qstringbuilder.h \
@@ -95,6 +107,7 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtcoreexports.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtextstream.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtmetamacros.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtnoop.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -106,6 +119,7 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtypeinfo.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtypes.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qutf8stringview.h \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qvarlengtharray.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qversiontagging.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qxptype_traits.h \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qyieldcpu.h \
@@ -777,6 +791,7 @@ appduck_game_autogen/timestamp: \
 	/usr/include/c++/9/cctype \
 	/usr/include/c++/9/cerrno \
 	/usr/include/c++/9/chrono \
+	/usr/include/c++/9/climits \
 	/usr/include/c++/9/clocale \
 	/usr/include/c++/9/cmath \
 	/usr/include/c++/9/cstddef \
@@ -828,7 +843,9 @@ appduck_game_autogen/timestamp: \
 	/usr/include/endian.h \
 	/usr/include/errno.h \
 	/usr/include/features.h \
+	/usr/include/limits.h \
 	/usr/include/linux/errno.h \
+	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
 	/usr/include/pthread.h \
 	/usr/include/sched.h \
@@ -850,8 +867,11 @@ appduck_game_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
 	/usr/include/x86_64-linux-gnu/bits/floatn.h \
 	/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+	/usr/include/x86_64-linux-gnu/bits/local_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/locale.h \
 	/usr/include/x86_64-linux-gnu/bits/long-double.h \
+	/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+	/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
 	/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
 	/usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -895,11 +915,13 @@ appduck_game_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
 	/usr/include/x86_64-linux-gnu/bits/typesizes.h \
 	/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+	/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/waitflags.h \
 	/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
 	/usr/include/x86_64-linux-gnu/bits/wchar.h \
 	/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
 	/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+	/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h \
 	/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \

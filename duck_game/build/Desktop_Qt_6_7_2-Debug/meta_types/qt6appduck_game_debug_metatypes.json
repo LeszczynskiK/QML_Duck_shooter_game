@@ -2,6 +2,105 @@
     {
         "classes": [
             {
+                "className": "Hunter",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "xPos",
+                        "notify": "xPosChanged",
+                        "read": "xPos",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setXPos"
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "width",
+                        "read": "width",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "height",
+                        "read": "height",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Hunter",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "xPosChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "shotFired",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "moveLeft",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "moveRight",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "shoot",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "hunter.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "Instruction",
                 "object": true,
                 "properties": [
