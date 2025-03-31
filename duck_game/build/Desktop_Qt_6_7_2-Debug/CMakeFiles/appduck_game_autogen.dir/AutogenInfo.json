@@ -796,6 +796,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/duckspawner.h",
+			"MU",
+			"EWIEGA46WW/moc_duckspawner.cpp",
+			null
+		],
+		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/game.h",
 			"MU",
 			"EWIEGA46WW/moc_game.cpp",
@@ -906,6 +912,11 @@
 	"SETTINGS_FILE" : "/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/appduck_game_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/duckspawner.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/game.cpp",
 			"MU",

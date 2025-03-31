@@ -2,6 +2,47 @@
     {
         "classes": [
             {
+                "className": "DuckSpawner",
+                "object": true,
+                "qualifiedClassName": "DuckSpawner",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "type",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "spawnDuck",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "spawn",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "duckspawner.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "Hunter",
                 "object": true,
                 "properties": [

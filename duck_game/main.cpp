@@ -5,6 +5,7 @@
 #include "game.h"
 #include "instruction.h"
 #include "hunter.h"
+#include "duckspawner.h"
 
 int main(int argc, char *argv[])
 {
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-     // Register Instruction with QML
+    // Register Instruction with QML
     Instruction instruction;
     engine.rootContext()->setContextProperty("instructionObject", &instruction);
 

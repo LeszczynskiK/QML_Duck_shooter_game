@@ -1,0 +1,106 @@
+{
+    "classes": [
+        {
+            "className": "Game",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "preloadTextures",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "y",
+                            "type": "qreal"
+                        }
+                    ],
+                    "name": "spawnBullet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "qreal"
+                        },
+                        {
+                            "name": "type",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "spawnDuck",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "score",
+                    "notify": "scoreChanged",
+                    "read": "score",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "Game",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "scoreChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bullet",
+                            "type": "Bullet*"
+                        }
+                    ],
+                    "name": "bulletSpawned",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "duck",
+                            "type": "Duck*"
+                        }
+                    ],
+                    "name": "duckSpawned",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "updateGame",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "game.h",
+    "outputRevision": 68
+}
