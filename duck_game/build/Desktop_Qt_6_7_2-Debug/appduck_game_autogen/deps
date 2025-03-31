@@ -15,6 +15,7 @@ appduck_game_autogen/timestamp: \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/instruction.h \
 	/home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/main.cpp \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QDebug \
+	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QList \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QObject \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QRandomGenerator \
 	/home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QTimer \

@@ -28,7 +28,6 @@ ApplicationWindow {
                 width: 200 // Button width
                 height: 140 // Button height
                 onClicked: {
-                    console.log("Start game")
                     stackView.push("qrc:/qt/qml/duck_game/game.qml") //Open page with this view
                 }
 
@@ -58,7 +57,6 @@ ApplicationWindow {
                 width: 200
                 height: 140
                 onClicked: {
-                    console.log("Instruction")
                     stackView.push("qrc:/qt/qml/duck_game/Instruction.qml")
                 }
 
@@ -88,7 +86,6 @@ ApplicationWindow {
                 width: 200
                 height: 140
                 onClicked: {
-                    console.log("Exit app")
                     Qt.quit();//qui app
                 }
 

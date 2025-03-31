@@ -21,6 +21,14 @@ int main(int argc, char *argv[])
     Hunter hunter;
     engine.rootContext()->setContextProperty("hunterObject", &hunter);
 
+    // Register DuckSpawner with QML
+    DuckSpawner duckSpawner;
+    engine.rootContext()->setContextProperty("duckSpawner", &duckSpawner);
+
+    // Register Game with QML
+    Game game;
+    engine.rootContext()->setContextProperty("gameObject", &game);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,
@@ -28,6 +36,9 @@ int main(int argc, char *argv[])
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.loadFromModule("duck_game", "Main");
+
+    // Start spawning ducks after the engine is loaded
+    duckSpawner.startSpawning();
 
     return app.exec();
 }

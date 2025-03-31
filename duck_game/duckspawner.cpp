@@ -9,8 +9,8 @@ DuckSpawner::DuckSpawner(QObject *parent)
 
 void DuckSpawner::startSpawning()
 {
-    // Spawn ducks every 1-7 seconds
-    spawnTimer->start(QRandomGenerator::global()->bounded(1000, 7000));
+    // Spawn ducks every 1-5 seconds
+    spawnTimer->start(QRandomGenerator::global()->bounded(1000, 5000));
 }
 
 void DuckSpawner::spawn()

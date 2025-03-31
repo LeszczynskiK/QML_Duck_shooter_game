@@ -2,7 +2,6 @@
   /home/krzysiek89/Desktop/QT_aplikacje/QML_Duck_shooter/duck_game/build/Desktop_Qt_6_7_2-Debug/appduck_game_autogen/moc_predefs.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QList \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QObject \
-  /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/QTimer \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/q20type_traits.h \
@@ -15,7 +14,6 @@
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qatomic.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qbasictimer.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qbindingstorage.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qbytearray.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
@@ -88,7 +86,6 @@
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtcoreexports.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
-  /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtimer.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtmetamacros.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtnoop.h \
   /home/krzysiek89/Qt/6.7.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \

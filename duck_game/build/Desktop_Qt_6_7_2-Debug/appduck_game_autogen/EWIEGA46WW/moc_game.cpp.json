@@ -5,30 +5,10 @@
             "methods": [
                 {
                     "access": "public",
-                    "name": "preloadTextures",
-                    "returnType": "void"
-                },
-                {
-                    "access": "public",
                     "arguments": [
                         {
                             "name": "x",
-                            "type": "qreal"
-                        },
-                        {
-                            "name": "y",
-                            "type": "qreal"
-                        }
-                    ],
-                    "name": "spawnBullet",
-                    "returnType": "void"
-                },
-                {
-                    "access": "public",
-                    "arguments": [
-                        {
-                            "name": "x",
-                            "type": "qreal"
+                            "type": "int"
                         },
                         {
                             "name": "type",
@@ -36,6 +16,31 @@
                         }
                     ],
                     "name": "spawnDuck",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "shootBullet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "updateGame",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resetGame",
                     "returnType": "void"
                 }
             ],
@@ -53,22 +58,49 @@
                     "scriptable": true,
                     "stored": true,
                     "type": "int",
-                    "user": false
+                    "user": false,
+                    "write": "setScore"
                 }
             ],
             "qualifiedClassName": "Game",
             "signals": [
                 {
                     "access": "public",
-                    "name": "scoreChanged",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        },
+                        {
+                            "name": "type",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "duckSpawned",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
                     "arguments": [
                         {
-                            "name": "bullet",
-                            "type": "Bullet*"
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
                         }
                     ],
                     "name": "bulletSpawned",
@@ -78,18 +110,40 @@
                     "access": "public",
                     "arguments": [
                         {
-                            "name": "duck",
-                            "type": "Duck*"
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
                         }
                     ],
-                    "name": "duckSpawned",
+                    "name": "updatePosition",
                     "returnType": "void"
-                }
-            ],
-            "slots": [
+                },
                 {
-                    "access": "private",
-                    "name": "updateGame",
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "objectDestroyed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "scoreChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "gameOver",
                     "returnType": "void"
                 }
             ],

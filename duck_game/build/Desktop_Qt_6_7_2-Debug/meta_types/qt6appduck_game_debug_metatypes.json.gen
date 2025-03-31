@@ -43,6 +43,166 @@
     {
         "classes": [
             {
+                "className": "Game",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "type",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "spawnDuck",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "shootBullet",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updateGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "resetGame",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "score",
+                        "notify": "scoreChanged",
+                        "read": "score",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setScore"
+                    }
+                ],
+                "qualifiedClassName": "Game",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            },
+                            {
+                                "name": "type",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "duckSpawned",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "bulletSpawned",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "x",
+                                "type": "int"
+                            },
+                            {
+                                "name": "y",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updatePosition",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "objectDestroyed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "scoreChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "gameOver",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "game.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "Hunter",
                 "object": true,
                 "properties": [
