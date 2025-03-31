@@ -14,16 +14,18 @@ Gameplay:
 - The game continues until a duck reaches the bottom of the screen, ending the session   
   
 Features:  
-1. Random duck spawning locations  
+1. Random duck spawning locations and random resp time
 2. Three types of ducks with different point values  
-3. Interactive shooting mechanics  
-4. Real-time score tracking  
-5. Game-over condition when a duck reaches the bottom  
+3. Interactive shooting mechanics by space clicking
+4. Real-time score tracking and display 
+5. Game-over condition when a duck reaches the bottom
+6. After duck reaches botton, message of game end will display with its summary
   
 Tech Stack:  
 C++ 14  
 Qt Quick (QML)  
 CMake (for building the project)  
+JavaScript (in small amount of code) to optimise commands
 
 
 
